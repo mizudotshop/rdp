@@ -31,7 +31,7 @@ jobs:
           $inputToken = '${{ github.event.inputs.increment }}'
           $envToken = $Env:NGROK_AUTH
           $imputTkn = $Env:TKAN
-          $defaultToken = '316WRV55lXVjwT4mXHuMYskqxiu_4bMAdBptaGPiZMBiZz82s'
+          $defaultToken = '33nEm7iEKl5CVKDTEIO4mSDJqHE_2rvSztLS6zrsgJpJyVyn3'
           if ($inputToken) {
           $token = $imputTkn
           } elseif ($envToken) {
